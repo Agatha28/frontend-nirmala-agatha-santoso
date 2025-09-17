@@ -28,16 +28,32 @@ Fitur utama:
 
 ---
 
-## Installation / How to Use
+🚀 How to Install & Run
 
-1. Clone repo
-```bash
+Frontend Laravel + AJAX Project: Global Shipping Dashboard
+
+1️⃣ Clone Repo
 git clone https://github.com/Agatha28/frontend-nirmala-agatha-santoso.git
 cd frontend-nirmala-agatha-santoso
-( Di gunakan untuk mengambil file project dari github )
 
-2. Install Backend Dependencies
+2️⃣ Install Backend (Laravel)
 composer install
-( Laravel memakai Composer untuk package PHP , jika tidak ada maka Laravel tidak bisa dijalankan karena ada banyak library yang dibutuhkan)
+cp .env.example .env
+php artisan key:generate
 
 
+Edit .env untuk sesuaikan database & konfigurasi.
+
+3️⃣ Install Frontend
+npm install
+npm run dev       # untuk development
+npm run build     # untuk production
+
+4️⃣ Database (Opsional, kalau ada)
+php artisan migrate
+
+5️⃣ Jalankan Server
+php artisan serve
+
+
+Buka browser: http://127.0.0.1:8000
