@@ -19,17 +19,24 @@ Route::get('/', function () {
     return view('frontend');
 });
 
+// Route untuk mengambil data negara
 Route::get('/api/negaras', function () {
     $response = Http::get('http://202.157.176.100:3001/negaras');
     return $response->json();
 });
 
+// Route untuk mengambil data pelabuhan berdasarkan ID negara
 Route::get('/api/pelabuhans', function () {
-    $response = Http::get('http://202.157.176.100:3001/pelabuhans'); 
+    $idNegara = request()->query('filter');
+    $response = Http::get('http://202.157.176.100:3001/pelabuhans?' . http_build_query(['filter' => $idNegara]));
     return $response->json();
 });
 
+// Route untuk mengambil data barang berdasarkan ID pelabuhan
 Route::get('/api/barangs', function () {
-    $response = Http::get('http://202.157.176.100:3001/barangs');
+    $idPelabuhan = request()->query('filter');
+    $response = Http::get('http://202.157.176.100:3001/barangs?' . http_build_query(['filter' => $idPelabuhan]));
     return $response->json();
 });
+
+

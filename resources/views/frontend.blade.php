@@ -156,7 +156,7 @@
 
 <script>
 $(document).ready(function () {
-    // 1️⃣ Load Negara
+    // Load Negara
     $.getJSON('http://202.157.176.100:3001/negaras', function (data) {
         console.log('Data Negara:', data);
         const filteredData = data.filter(item => {
@@ -173,7 +173,7 @@ $(document).ready(function () {
         }
     });
 
-    // 2️⃣ Kalau Negara dipilih → load Pelabuhan
+    //Kalau Negara dipilih → load Pelabuhan
     $('#negara').on('change', function () {
         let idNegara = $(this).val();
         $('#pelabuhan').prop('disabled', true).html('<option value="">Loading...</option>');
@@ -221,7 +221,7 @@ $(document).ready(function () {
         }
     });
 
-    // 4️⃣ Kalau Barang dipilih → isi description, harga, diskon, total
+    // Kalau Barang dipilih → isi description, harga, diskon, total
     $('#barang').on('change', function () {
         let selected = $(this).find(':selected');
         let desc = selected.data('description') || '';
@@ -237,7 +237,7 @@ $(document).ready(function () {
         $('#total').val(formatRupiah(total));
     });
 
-    // 🔄 Fungsi format ke Rupiah
+    // Fungsi format ke Rupiah
     function formatRupiah(angka) {
         angka = parseInt(angka) || 0;
         return 'Rp. ' + angka.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
