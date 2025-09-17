@@ -59,14 +59,13 @@ Edit .env untuk sesuaikan database & konfigurasi.
 
 npm install
 
-npm run dev    
-# untuk development
+npm run dev  ( Untuk development )
 
-npm run build   
-# untuk production
+npm run build  ( Untuk production )
 
 
-4️⃣ Database (Opsional, kalau ada)
+
+4️⃣ Database (Opsional, Jika Ada)
 
 php artisan migrate
 
