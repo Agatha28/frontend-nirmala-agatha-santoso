@@ -7,9 +7,13 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-<img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/c19eef95-b91b-4dbe-b0d7-eec22f32aac3" />
 
-<img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/4b27ab64-41f4-45e1-af62-215ebb26dd4b" />
+
+<img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/357f502f-f8a3-42b0-8ae6-a7277c28b5eb" />
+
+<img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/9ad81a92-5e45-4964-af86-c6cdbc74cf00" />
+
+
 
 
 # Global Shipping - Frontend-Nirmala-Agatha-Santoso
