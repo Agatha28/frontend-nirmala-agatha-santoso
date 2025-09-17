@@ -8,3 +8,30 @@
 </p>
 
 
+# Global Shipping - Frontend-Nirmala-Agatha-Santoso
+
+Project ini adalah menggunakan **Laravel** dan **AJAX (jQuery)**.  
+Fitur utama:
+- Pilih Negara → Pelabuhan → Barang
+- Otomatis menampilkan description, harga, diskon, total
+- Loading spinner saat fetch data
+- Frontend responsive menggunakan Bootstrap 5
+
+---
+
+## Prerequisites
+
+- PHP >= 8.x
+- Composer
+- Node.js & npm
+- Git
+
+---
+
+## Installation / How to Use
+
+1. **Clone repo**
+```bash
+git clone https://github.com/Agatha28/frontend-nirmala-agatha-santoso.git
+cd frontend-nirmala-agatha-santoso
+
