@@ -33,7 +33,9 @@ Fitur utama:
 Frontend Laravel + AJAX Project: Global Shipping Dashboard
 
 1️⃣ Clone Repo
+
 git clone https://github.com/Agatha28/frontend-nirmala-agatha-santoso.git
+
 cd frontend-nirmala-agatha-santoso
 
 2️⃣ Install Backend (Laravel)
