@@ -10,7 +10,7 @@
 
 # Global Shipping - Frontend-Nirmala-Agatha-Santoso
 
-Project ini adalah menggunakan **Laravel** dan **AJAX (jQuery)**.  
+Project ini menggunakan **Laravel** dan **AJAX (jQuery)**.  
 Fitur utama:
 - Pilih Negara → Pelabuhan → Barang
 - Otomatis menampilkan description, harga, diskon, total
