@@ -30,8 +30,14 @@ Fitur utama:
 
 ## Installation / How to Use
 
-1. **Clone repo**
+1. Clone repo
 ```bash
 git clone https://github.com/Agatha28/frontend-nirmala-agatha-santoso.git
 cd frontend-nirmala-agatha-santoso
+( Di gunakan untuk mengambil file project dari github )
+
+2. Install Backend Dependencies
+composer install
+( Laravel memakai Composer untuk package PHP , jika tidak ada maka Laravel tidak bisa dijalankan karena ada banyak library yang dibutuhkan)
+
 
